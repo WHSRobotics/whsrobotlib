@@ -1,6 +1,5 @@
 plugins {
     id 'java-library'
-    id 'maven-publish'
 }
 
 group 'org.whitneyrobotics'
@@ -17,8 +16,4 @@ dependencies {
 
 test {
     useJUnitPlatform()
-}
-
-publishing {
-    publications {}
 }
